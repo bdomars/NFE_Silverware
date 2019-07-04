@@ -90,7 +90,7 @@
 #define SENSOR_ROTATE_90_CW
 
 // SPI PINS DEFINITONS & RADIO
-#if defined(RX_SBUS) || defined(RX_DSMX_2048) || defined(RX_DSM2_1024) || defined(RX_CRSF) 
+#if defined(RX_SBUS) || defined(RX_DSMX_2048) || defined(RX_DSM2_1024) || defined(RX_CRSF)
 #define SERIAL_RX_SWD
 #define SERIAL_RX_SPEKBIND_BINDTOOL_PIN GPIO_Pin_3
 #define SERIAL_RX_PIN GPIO_Pin_14
@@ -109,11 +109,11 @@
 #else
 #define SOFTSPI_3WIRE
 #define SPI_MOSI_PIN GPIO_Pin_0
-#define SPI_MOSI_PORT GPIOF
+#define SPI_MOSI_PORT GPIOA
 #define SPI_CLK_PIN GPIO_Pin_1
 #define SPI_CLK_PORT GPIOF
 #define SPI_SS_PIN GPIO_Pin_0
-#define SPI_SS_PORT GPIOA
+#define SPI_SS_PORT GPIOF
 #define RADIO_XN297L
 #define RADIO_CHECK
 #endif
@@ -158,7 +158,7 @@
 #define SENSOR_ROTATE_180
 
 // SPI PINS DEFINITONS & RADIO
-#if defined(RX_SBUS) || defined(RX_DSMX_2048) || defined(RX_DSM2_1024) || defined(RX_CRSF) 
+#if defined(RX_SBUS) || defined(RX_DSMX_2048) || defined(RX_DSM2_1024) || defined(RX_CRSF)
 #define SERIAL_RX_SWD
 #define SERIAL_RX_SPEKBIND_BINDTOOL_PIN GPIO_Pin_3
 #define SERIAL_RX_PIN GPIO_Pin_14
@@ -221,11 +221,11 @@
 #define GYRO_ID_1 0x68
 #define GYRO_ID_2 0x98 // new id
 #define GYRO_ID_3 0x78
-#define GYRO_ID_4 0x72 
+#define GYRO_ID_4 0x72
 #define SENSOR_ROTATE_90_CCW
 
 // SPI PINS DEFINITONS & RADIO
-#if defined(RX_SBUS) || defined(RX_DSMX_2048) || defined(RX_DSM2_1024) || defined(RX_CRSF) 
+#if defined(RX_SBUS) || defined(RX_DSMX_2048) || defined(RX_DSM2_1024) || defined(RX_CRSF)
 #define SERIAL_RX_SPEKBIND_BINDTOOL_PIN GPIO_Pin_2
 #define SERIAL_RX_SPEKBIND_RX_PIN GPIO_Pin_3
 #define SERIAL_RX_PIN GPIO_Pin_3
@@ -297,7 +297,7 @@
 #define SENSOR_ROTATE_180
 
 // SPI PINS DEFINITONS & RADIO
-#if defined(RX_SBUS) || defined(RX_DSMX_2048) || defined(RX_DSM2_1024) || defined(RX_CRSF) 
+#if defined(RX_SBUS) || defined(RX_DSMX_2048) || defined(RX_DSM2_1024) || defined(RX_CRSF)
 #define SERIAL_RX_SPEKBIND_BINDTOOL_PIN GPIO_Pin_2
 #define SERIAL_RX_SPEKBIND_RX_PIN GPIO_Pin_3
 #define SERIAL_RX_PIN GPIO_Pin_3
