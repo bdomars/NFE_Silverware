@@ -84,9 +84,9 @@
 //#define RX_BAYANG_PROTOCOL_TELEMETRY_AUTOBIND
 
 // *************Transmitter Type Selection
-#define USE_STOCK_TX
+//#define USE_STOCK_TX
 //#define USE_DEVO
-//#define USE_MULTI
+#define USE_MULTI
 
 // *******************************SWITCH SELECTION*****************************
 // *************CHAN_ON - on always ( all protocols)
