@@ -134,9 +134,9 @@
 #endif
 
 // Assingment of pin to motor
-#define MOTOR0_PIN_PA6 // motor 0 back-left
+#define MOTOR0_PIN_PB1 // motor 0 back-left
 #define MOTOR1_PIN_PA4 // motor 1 front-left
-#define MOTOR2_PIN_PB1 // motor 2 back-right
+#define MOTOR2_PIN_PA6 // motor 2 back-right
 #define MOTOR3_PIN_PA7 // motor 3 front-right
 #endif
 
